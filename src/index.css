@@ -60,7 +60,7 @@ body {
 /* Layout: results on the left, favorites on the right */
 .layout {
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: minmax(0, 1fr) 280px;
   gap: 24px;
   align-items: start;
   max-width: 1200px;
@@ -303,7 +303,7 @@ body {
 /* Responsive */
 @media (max-width: 800px) {
   .layout {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     padding: 16px;
   }
 
