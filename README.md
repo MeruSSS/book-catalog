@@ -5,7 +5,7 @@ Built with HTML, CSS and JavaScript (ES6+) and bundled with Vite. No frameworks 
 
 ## Task
 
-The task description is available here: [LINK TO THE TASK DOCUMENT](https://drive.google.com/file/d/1RBRcuH-_oAvtjem5Xs0c4NXZ8I38aYyH/view)
+The task description is available here: [TASK DOCUMENT](https://drive.google.com/file/d/1RBRcuH-_oAvtjem5Xs0c4NXZ8I38aYyH/view)
 
 ### Implemented features
 
@@ -19,7 +19,7 @@ The task description is available here: [LINK TO THE TASK DOCUMENT](https://driv
 - Extra: search as you type with debounce
 - Extra: deployment (see the link below)
 
-Live demo: <LINK TO DEPLOYED APP>
+Live demo: [book-catalog](https://merusss.github.io/book-catalog/)
 
 ## How to run the app
 
