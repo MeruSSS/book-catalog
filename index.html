@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Catalog</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Book Catalog</h1>
+      <button id="theme-toggle" class="btn btn--ghost" type="button">Theme</button>
+    </header>
+
+    <main class="layout">
+      <section class="search-section">
+        <!-- Search form -->
+        <form id="search-form" class="search-form">
+          <input
+            id="search-input"
+            class="search-form__input"
+            type="search"
+            aria-label="Search books"
+            placeholder="Title, author or keyword"
+            autocomplete="off"
+          />
+          <button class="btn" type="submit">Search</button>
+        </form>
+        
+        <!-- Author filter: shown after a search -->
+        <select id="author-filter" class="author-filter" aria-label="Filter by author" hidden>
+          <option value="">All authors</option>
+        </select>
+
+        <!-- Status messages: loading, errors, empty results -->
+        <p id="status" class="status" role="status"></p>
+
+        <!-- Search results are rendered here -->
+        <div id="results" class="books-grid"></div>
+      </section>
+
+        <!-- Favorites list -->
+      <aside class="favorites">
+        <h2 class="favorites__title">Favorites <span id="favorites-count">0</span></h2>
+        <div id="favorites-list" class="favorites__list"></div>
+      </aside>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
